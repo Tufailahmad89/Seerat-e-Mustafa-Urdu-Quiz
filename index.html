@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>اردو کوئز</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="quiz-container">
+      <div id="levelSelection" class="level-selection">
+        <h2 style="text-align: center;">درجہ منتخب کریں</h2><br/>
+        <button class="level-btn" data-level="1">درجہ 1</button>
+        <button class="level-btn" data-level="2">درجہ 2</button>
+        <button class="level-btn" data-level="3">درجہ 3</button>
+        <button class="level-btn" data-level="4">درجہ 4</button>
+        <button class="level-btn" data-level="5">درجہ 5</button>
+        <button class="level-btn" data-level="6">درجہ 6</button>
+        <button class="level-btn" data-level="7">درجہ 7</button>
+        <button class="level-btn" data-level="8">درجہ 8</button>
+        <button class="level-btn" data-level="9">درجہ 9</button>
+        <button class="level-btn" data-level="10">درجہ 10</button>
+        <button class="level-btn" data-level="11">درجہ 11</button>
+        <button class="level-btn" data-level="12">درجہ 12</button>
+        <button class="level-btn" data-level="13">درجہ 13</button>
+        <button class="level-btn" data-level="14">درجہ 14</button>
+        <button class="level-btn" data-level="15">درجہ 15</button>
+        <button class="level-btn" data-level="16">درجہ 16</button>
+        <button class="level-btn" data-level="17">درجہ 17</button>
+        <button class="level-btn" data-level="18">درجہ 18</button>
+        <button class="level-btn" data-level="19">درجہ 19</button>
+        <button class="level-btn" data-level="20">درجہ 20</button>
+        <button class="level-btn" data-level="21">درجہ 21</button>
+        <button class="level-btn" data-level="22">درجہ 22</button>
+        <button class="level-btn" data-level="23">درجہ 23</button>
+        <button class="level-btn" data-level="24">درجہ 24</button>
+        <button class="level-btn" data-level="25">درجہ 25</button>
+        <button class="level-btn" data-level="26">درجہ 26</button>
+        <button class="level-btn" data-level="27">درجہ 27</button>
+        <button class="level-btn" data-level="28">درجہ 28</button>
+        <button class="level-btn" data-level="29">درجہ 29</button>
+        <button class="level-btn" data-level="30">درجہ 30</button>
+        <button class="level-btn" data-level="31">درجہ 31</button>
+        <button class="level-btn" data-level="32">درجہ 32</button>
+        <button class="level-btn" data-level="33">درجہ 33</button>
+        <button class="level-btn" data-level="34">درجہ 34</button>
+        <button class="level-btn" data-level="35">درجہ 35</button>
+      </div>
+      <div id="quizSection" style="display: none">
+        <div class="timer">وقت باقی: <span id="time">30</span> سیکنڈ</div>
+        <div class="timer-bar">
+          <div class="timer-fill" id="timerFill"></div>
+        </div>
+        <div class="question" id="question">سوال لوڈ ہو رہا ہے...</div>
+        <div class="options" id="options"></div>
+        <button class="back-btn" id="backBtn">درجہ منتخب کریں</button>
+      </div>
+      <div class="result" id="result">
+        آپ کا اسکور: <span id="score">0</span>
+      </div>
+      <button class="restart-btn" id="restartBtn">کوئز دوبارہ شروع کریں</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
